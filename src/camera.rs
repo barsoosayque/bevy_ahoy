@@ -4,8 +4,8 @@ use avian_pickup::actor::AvianPickupActor;
 use bevy_ecs::{lifecycle::HookContext, relationship::Relationship, world::DeferredWorld};
 
 use crate::{
-    kcc::spin_character_look, prelude::*, CharacterControllerDerivedProps,
-    CharacterControllerState, CharacterLook,
+    CharacterControllerDerivedProps, CharacterControllerState, CharacterLook,
+    kcc::spin_character_look, prelude::*,
 };
 
 pub struct AhoyCameraPlugin;
